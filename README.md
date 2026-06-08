@@ -1,1 +1,1 @@
-# rat-infestation-project
+# trashcan-project
