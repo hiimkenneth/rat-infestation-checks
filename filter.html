@@ -1,0 +1,56 @@
+<head>
+    <body onload="init()"">
+
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="helper.js"></script>
+    <script src="script.js"></script>
+</head>
+
+    <div id="banner" class="container center">
+        <h1>Rat Infestation Checks</h1>
+    </div>
+
+    <nav class="container">
+        <a href="index.html" style="flex:1">Home</a>
+        <a href="filter.html" style="flex:1">Dataset</a>
+        <a href="analysis.html" style="flex:1">Analysis</a>
+    </nav>
+
+    
+<div class="card">
+          <h3>Search By Inspection Type</h3>
+          <input type="text" id="inspection" placeholder="Enter Inspection Type">
+          <hr></hr>
+          <a class="button" onclick="filterByInspection()"> Search </a>
+        </div>
+
+        <div class="card">
+          <h3>Search By Borough</h3>
+          <input type="text" id="borough" placeholder="Enter Borough">
+          <hr></hr>
+          <a class="button" onclick="filterByBorough()"> Search </a>
+        </div>
+
+        <div class="card">
+          <h3>Search By Zip</h3>
+          <input type="text" id="zip" placeholder="Enter Zip">
+          <hr></hr>
+          <a class="button" onclick="filterByZip()"> Search </a>
+        </div>
+
+        <hr>
+
+      <div id="result" class="container"></div>
+      <div id="output" class="container"></div>
+
+      </div>
+
+
+
+
+
+
+
+
+        
+    </body>
