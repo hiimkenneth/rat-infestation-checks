@@ -1,6 +1,7 @@
 body{
   margin:0 auto;
   font-family:"Calibri";
+  background-color:#f1f2ff;
 }
 
 .container{
@@ -80,4 +81,12 @@ a:hover{
 
 .subbanner{
   background-color:#453a5f;
+  color:white; 
+  
+}
+
+.fit{
+  width:150px;
+  height:150px;
+  object-fit:contain;
 }

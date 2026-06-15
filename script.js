@@ -11,7 +11,7 @@ async function init(){
 
     for(let i = 0; i < data.length; i+=1){
         let file = data[i]
-        build += `<div class="card">
+        build += `<div class="fitted card">
 
                     <h1>${file.inspection_type}</h1>
                     <b><h3>${file.borough}</h3></b>
